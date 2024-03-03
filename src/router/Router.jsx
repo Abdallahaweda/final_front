@@ -10,6 +10,7 @@ import Theme from '../components/Theme/Theme'
 
 
 
+
 function Router() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function Router() {
       <Route path='/about' element= {<About />}/>
       <Route path='/portfolio' element= {<Portfolio />}/>
       <Route path='/contact' element= {<Contact />}/>
+      
     </Routes>
     </BrowserRouter>
   )
